@@ -16,7 +16,7 @@ jobs:
           # URL of gitHub public upstream repo
           upstream_repo: "https://github.com/ProjectBorealis/UEGitPlugin.git"
           # Branch to merge from upstream (defaults to downstream branch)
-          UPSTREAM_BRANCH: release
+          UPSTREAM_BRANCH: dev
           # Branch to merge into downstream is equal
           # GitHub Bot token
           token: ${{ secrets.GITHUB_TOKEN }}
